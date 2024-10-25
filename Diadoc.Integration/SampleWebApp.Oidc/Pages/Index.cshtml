@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Привет, @ViewData["UserName"]</h1>
+</div>
+<div>
+    <p>Ответ на запрос @ViewData["DiadocRequest"]:</p>
+    <pre style="max-height: 500px"><code>
+@ViewData["DiadocResponse"]
+    </code></pre>
+</div>
