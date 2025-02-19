@@ -4,7 +4,7 @@
 
 Демонстрируемые возможности:
 
-* Аутентификация через [Контур.ID](https://developer.kontur.ru/Docs/html/index.html#id) по протоколу OpenID Connect по [Device Flow](https://developer.kontur.ru/Docs/html/schemes/device_flow.html).
+* Аутентификация через сервис [OpenID Connect](https://developer.kontur.ru/Docs/html/index.html#id) по [Device Flow](https://developer.kontur.ru/Docs/html/schemes/device_flow.html).
 * Интеграция с OpenID Connect с помощью пакета [Duende.IdentityModel](https://www.nuget.org/packages/Duende.IdentityModel).
 * Использование полученного access_token для запросов в АПИ Диадока.
 
